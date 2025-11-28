@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAEP - Sistema Principal</title>
+    <link rel="stylesheet" href="./CSS/principal.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <h2>SAEP - Sistema de Almoxarifado</h2>
+
+        <div class="usuario-area">
+            <span id="nomeUsuario"></span>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <h3>Menu Principal</h3>
+
+        <div class="botoes">
+            <button onclick="window.location.href='cadastro.html'">
+                Cadastro de Produto
+            </button>
+
+            <button onclick="window.location.href='estoque.html'">
+                Gestão de Estoque
+            </button>
+        </div>
+    </main>
+
+    <script src="principal.js"></script>
+
+</body>
+</html>
